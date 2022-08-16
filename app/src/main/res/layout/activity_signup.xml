@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".signup"
+    >
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/signuptv"
+       android:text="Sign Up"
+       android:textSize="30sp"
+       android:layout_marginStart="20dp"
+       android:layout_marginEnd="20dp"
+        android:layout_marginTop="90dp"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintBottom_toTopOf="@+id/editTextNumber1"/>
+    <EditText
+        android:id="@+id/editTextNumber1"
+        android:layout_width="334dp"
+        android:layout_height="37dp"
+        android:ems="10"
+        android:hint="@string/name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signuptv"
+        app:layout_constraintBottom_toTopOf="@+id/editTextNumber2"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextNumber2"
+        android:layout_width="334dp"
+        android:layout_height="37dp"
+        android:ems="10"
+        android:hint="@string/email"
+        app:layout_constraintBottom_toTopOf="@+id/editTextNumber3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumber1"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextNumber3"
+        android:layout_width="334dp"
+        android:layout_height="37dp"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/editTextNumber4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumber2"
+        />
+
+    <EditText
+        android:id="@+id/editTextNumber4"
+        android:layout_width="334dp"
+        android:layout_height="37dp"
+        android:ems="10"
+        android:hint="confiorm password"
+        app:layout_constraintBottom_toTopOf="@+id/editTextNumber5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumber3" />
+
+    <EditText
+        android:id="@+id/editTextNumber5"
+        android:layout_width="334dp"
+        android:layout_height="37dp"
+        android:ems="10"
+        android:hint="@string/phone"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumber4" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       app:layout_constraintTop_toBottomOf="@+id/editTextNumber5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="300dp"
+       />
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+      android:text="I accept Terms and Conditions of the Readers"
+      android:id="@+id/checkBoxTv"
+         app:layout_constraintTop_toBottomOf="@+id/editTextNumber5"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintBottom_toTopOf="@+id/button2"
+         android:layout_marginStart="40dp" />
+
+
+         <Button
+        android:id="@+id/button2"
+        android:layout_width="343dp"
+        android:layout_height="59dp"
+        android:text="Sign Up"
+        android:background="@drawable/btcorner"
+        android:layout_marginBottom="90dp"
+     app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumber5"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1023365738630",
+    "project_id": "readers-fd13a",
+    "storage_bucket": "readers-fd13a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023365738630:android:65514b956a71133f2f2107",
+        "android_client_info": {
+          "package_name": "com.example.readers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1023365738630-dt4c0ell8h0q4q7sr0o6484j675fjajt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBz2zpk-KTGlCUTlcgqWLn4FXiG9qAY29k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1023365738630-dt4c0ell8h0q4q7sr0o6484j675fjajt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

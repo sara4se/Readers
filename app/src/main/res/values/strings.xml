@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Readers</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="phone">phone</string>
+    <string name="name">name</string>
+    <string name="button">Button</string>
+    <string name="rooms_type">Rooms type</string>
+    <string name="home">Home</string>
+    <string name="readers_icon">Readers Icon</string>
+    <string name="rooms">Rooms</string>
+    <string name="text_view">Text view</string>
+    <string name="make_your_own_space_read_share_discuss_with_people_lets_fun_while_learning_new_knowledge_join_now">make your own space: read, share discuss with people lets fun while learning new knowledge, join now</string>
+    <string name="editfile">editFile</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="delete">delete</string>
+</resources>

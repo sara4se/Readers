@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Arwa_/AndroidStudioProjects/Readers/app/src/main/res/drawable/btcorner.xml" value="0.101" />
+        <entry key="..\:/Users/Arwa_/AndroidStudioProjects/Readers/app/src/main/res/layout/activity_home_page.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Arwa_/AndroidStudioProjects/Readers/app/src/main/res/layout/activity_login.xml" value="0.1557811120917917" />
+        <entry key="..\:/Users/Arwa_/AndroidStudioProjects/Readers/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Arwa_/AndroidStudioProjects/Readers/app/src/main/res/layout/activity_main2.xml" value="0.22" />
+        <entry key="..\:/Users/Arwa_/AndroidStudioProjects/Readers/app/src/main/res/layout/activity_people.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Arwa_/AndroidStudioProjects/Readers/app/src/main/res/layout/activity_profile_favorite_room.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Arwa_/AndroidStudioProjects/Readers/app/src/main/res/layout/activity_room.xml" value="0.15091919623770841" />
+        <entry key="..\:/Users/Arwa_/AndroidStudioProjects/Readers/app/src/main/res/layout/activity_rooms.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Arwa_/AndroidStudioProjects/Readers/app/src/main/res/layout/activity_signup.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Arwa_/AndroidStudioProjects/Readers/app/src/main/res/layout/fragment_first.xml" value="0.15091919623770841" />
+        <entry key="..\:/Users/Arwa_/AndroidStudioProjects/Readers/app/src/main/res/layout/fragment_second.xml" value="0.15091919623770841" />
+        <entry key="..\:/Users/Arwa_/AndroidStudioProjects/Readers/app/src/main/res/layout/recycle_item_rooms.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/Arwa_/AndroidStudioProjects/Readers/app/src/main/res/layout/recycle_item_user.xml" value="0.12868747327917915" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
