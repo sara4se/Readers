@@ -1,4 +1,4 @@
-package com.example.readers
+package com.example.readers.ui
 
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
@@ -6,10 +6,9 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
 import androidx.annotation.RequiresApi
-import com.example.readers.adapters.UsersAdapter
+import com.example.readers.ui.adapters.UsersAdapter
 import com.example.readers.databinding.ActivityPeopleBinding
-import com.example.readers.models.User
-import com.google.firebase.firestore.FieldValue.delete
+import com.example.readers.data.models.User
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
 

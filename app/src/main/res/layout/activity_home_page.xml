@@ -5,9 +5,10 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/home"
     android:layout_marginTop="20dp"
     android:background="@drawable/onboarding_4__1"
-    tools:context=".HomePage">
+    tools:context=".ui.home.view.HomePage">
 
 
     <TextView
@@ -28,11 +29,11 @@
         android:layout_marginTop="100dp"
         android:layout_marginBottom="10dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="@+id/passwordtv"
         app:layout_constraintTop_toBottomOf="@+id/textView1" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/passwordtv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
@@ -58,7 +59,7 @@
         android:layout_marginBottom="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/frgmentContiner1"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintTop_toBottomOf="@+id/passwordtv" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

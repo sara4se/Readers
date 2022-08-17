@@ -1,13 +1,14 @@
-package com.example.readers
+package com.example.readers.ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.readers.adapters.RoomsAdapter
-import com.example.readers.models.Rooms
+import com.example.readers.R
+import com.example.readers.ui.adapters.RoomsAdapter
+import com.example.readers.data.models.Rooms
+import com.example.readers.ui.home.view.HomePage
 
 class RoomsTypeActivity : AppCompatActivity() {
 

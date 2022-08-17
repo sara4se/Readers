@@ -1,7 +1,7 @@
-package com.example.readers
+package com.example.readers.data.remote.dao
 
 import androidx.room.*
-import com.example.readers.models.Rooms
+import com.example.readers.data.models.Rooms
 
 @Dao
 interface RoomsDao {

@@ -1,4 +1,4 @@
-package com.example.readers.adapters
+package com.example.readers.ui.adapters
 
 import android.media.Image
 import android.view.LayoutInflater
@@ -11,7 +11,7 @@ import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.readers.R
-import com.example.readers.models.Rooms
+import com.example.readers.data.models.Rooms
 
 class RoomsAdapter(val rooms: ArrayList<Rooms>) : RecyclerView.Adapter<RoomsAdapter.ViewHolder>() {
     lateinit var onItemClickListener : OnItemClickListener
@@ -22,7 +22,7 @@ class RoomsAdapter(val rooms: ArrayList<Rooms>) : RecyclerView.Adapter<RoomsAdap
     }
 
 
-    override fun onBindViewHolder(holder: RoomsAdapter.ViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: ViewHolder, position: Int) {
 
         val imageViewRooms = holder.roomImage
         Glide.with(holder.roomImage.context)

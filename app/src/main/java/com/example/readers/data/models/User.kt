@@ -1,4 +1,4 @@
-package com.example.readers.models
+package com.example.readers.data.models
 
 
 data class User(

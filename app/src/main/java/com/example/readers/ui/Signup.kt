@@ -1,7 +1,8 @@
-package com.example.readers
+package com.example.readers.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.readers.R
 
 class signup : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

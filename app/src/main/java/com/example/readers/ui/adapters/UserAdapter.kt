@@ -1,4 +1,4 @@
-package com.example.readers.adapters
+package com.example.readers.ui.adapters
 
 import android.content.pm.PackageManager
 import android.view.LayoutInflater
@@ -9,7 +9,7 @@ import android.widget.TextView
 import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.readers.R
-import com.example.readers.models.User
+import com.example.readers.data.models.User
 
 
 class UsersAdapter(val users: List<User>) : RecyclerView.Adapter<UsersAdapter.ViewHolder>() {

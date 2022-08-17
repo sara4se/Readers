@@ -1,17 +1,14 @@
-package com.example.readers
+package com.example.readers.ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.widget.Button
-import android.widget.EditText
-import android.widget.ImageView
 import android.widget.Toast
 import com.bumptech.glide.Glide
 import com.example.readers.databinding.ActivityLoginBinding
-import com.example.readers.databinding.ActivityMainBinding
-import com.example.readers.models.User
+import com.example.readers.data.models.User
+import com.example.readers.ui.home.view.HomePage
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
 
