@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Arwa_/AndroidStudioProjects/Readers/app/src/main/res/drawable/btcorner.xml" value="0.101" />
+        <entry key="..\:/Users/Arwa_/AndroidStudioProjects/Readers/app/src/main/res/layout/activity_auth.xml" value="0.15091919623770841" />
         <entry key="..\:/Users/Arwa_/AndroidStudioProjects/Readers/app/src/main/res/layout/activity_home_page.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/Arwa_/AndroidStudioProjects/Readers/app/src/main/res/layout/activity_login.xml" value="0.1557811120917917" />
         <entry key="..\:/Users/Arwa_/AndroidStudioProjects/Readers/app/src/main/res/layout/activity_main.xml" value="0.1" />
@@ -12,9 +13,11 @@
         <entry key="..\:/Users/Arwa_/AndroidStudioProjects/Readers/app/src/main/res/layout/activity_profile_favorite_room.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/Arwa_/AndroidStudioProjects/Readers/app/src/main/res/layout/activity_room.xml" value="0.15091919623770841" />
         <entry key="..\:/Users/Arwa_/AndroidStudioProjects/Readers/app/src/main/res/layout/activity_rooms.xml" value="0.16666666666666666" />
-        <entry key="..\:/Users/Arwa_/AndroidStudioProjects/Readers/app/src/main/res/layout/activity_signup.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Arwa_/AndroidStudioProjects/Readers/app/src/main/res/layout/activity_signup.xml" value="0.13333333333333333" />
         <entry key="..\:/Users/Arwa_/AndroidStudioProjects/Readers/app/src/main/res/layout/fragment_first.xml" value="0.15091919623770841" />
+        <entry key="..\:/Users/Arwa_/AndroidStudioProjects/Readers/app/src/main/res/layout/fragment_login.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/Arwa_/AndroidStudioProjects/Readers/app/src/main/res/layout/fragment_second.xml" value="0.15091919623770841" />
+        <entry key="..\:/Users/Arwa_/AndroidStudioProjects/Readers/app/src/main/res/layout/fragment_sign_up.xml" value="0.15091919623770841" />
         <entry key="..\:/Users/Arwa_/AndroidStudioProjects/Readers/app/src/main/res/layout/fragment_splash.xml" value="0.1393758016246259" />
         <entry key="..\:/Users/Arwa_/AndroidStudioProjects/Readers/app/src/main/res/layout/recycle_item_rooms.xml" value="0.13333333333333333" />
         <entry key="..\:/Users/Arwa_/AndroidStudioProjects/Readers/app/src/main/res/layout/recycle_item_user.xml" value="0.12868747327917915" />

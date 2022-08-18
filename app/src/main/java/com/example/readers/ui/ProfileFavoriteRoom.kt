@@ -6,7 +6,7 @@ import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.readers.R
-import com.example.readers.data.remote.dao.RoomsDao
+import com.example.readers.data.local.dao.RoomsDao
 import com.example.readers.RoomsDatabase
 import com.example.readers.ui.adapters.RoomsAdapter
 import com.example.readers.data.models.Rooms

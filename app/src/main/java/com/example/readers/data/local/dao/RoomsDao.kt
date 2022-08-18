@@ -1,4 +1,4 @@
-package com.example.readers.data.remote.dao
+package com.example.readers.data.local.dao
 
 import androidx.room.*
 import com.example.readers.data.models.Rooms

@@ -11,8 +11,8 @@
    <TextView
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
-       android:id="@+id/signuptv"
-       android:text="Sign Up"
+       android:id="@+id/tvSignUp"
+       android:text="@string/sign_up"
        android:textSize="30sp"
        android:layout_marginStart="20dp"
        android:layout_marginEnd="20dp"
@@ -29,7 +29,7 @@
         android:hint="@string/name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/signuptv"
+        app:layout_constraintTop_toBottomOf="@+id/tvSignUp"
         app:layout_constraintBottom_toTopOf="@+id/editTextNumber2"
         tools:ignore="MissingConstraints" />
 
@@ -109,7 +109,7 @@
         android:id="@+id/button2"
         android:layout_width="343dp"
         android:layout_height="59dp"
-        android:text="Sign Up"
+        android:text="@string/sign_up"
         android:background="@drawable/btcorner"
         android:layout_marginBottom="90dp"
      app:layout_constraintBottom_toBottomOf="parent"
