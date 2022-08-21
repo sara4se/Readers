@@ -1,7 +1,7 @@
 package com.example.readers.data.models
 
 
-data class User(
+data class UserS(
     val name: String,
     val age: Int
 ){

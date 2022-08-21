@@ -9,13 +9,14 @@ import android.widget.TextView
 import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.readers.R
-import com.example.readers.data.models.User
+import com.example.readers.data.models.SavedRoom
+import com.example.readers.data.models.UserS
 
 
-class UsersAdapter(val users: List<User>) : RecyclerView.Adapter<UsersAdapter.ViewHolder>() {
+class UsersAdapter(val room_: List<SavedRoom>) : RecyclerView.Adapter<UsersAdapter.ViewHolder>() {
 
     lateinit var onItemClickListener: OnItemClickListener
-    private var listData: MutableList<User> = users as MutableList<User>
+    private var listData: MutableList<SavedRoom> = room_ as MutableList<SavedRoom>
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
 
@@ -27,9 +28,9 @@ class UsersAdapter(val users: List<User>) : RecyclerView.Adapter<UsersAdapter.Vi
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
 
-        holder.tvName.text = users[position].name
-        holder.tvAge.text = "${users[position].age}"
-        holder.tvId.text = users[position].id
+        holder.tvName.text = room_[position].id
+        holder.tvAge.text = room_[position].title
+        holder.tvId.text = room_[position].desc
 
         holder.cardNews.setOnClickListener {
             onItemClickListener.onItemClicked(position)
@@ -38,7 +39,7 @@ class UsersAdapter(val users: List<User>) : RecyclerView.Adapter<UsersAdapter.Vi
 
     }
 
-    override fun getItemCount(): Int = users.size
+    override fun getItemCount(): Int = room_.size
 
     inner class ViewHolder(listItemView: View) : RecyclerView.ViewHolder(listItemView) {
 

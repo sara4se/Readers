@@ -1,4 +1,8 @@
 package com.example.readers
 
-class ReaditApp {
+import android.app.Application
+import dagger.hilt.android.HiltAndroidApp
+
+@HiltAndroidApp
+class ReaditApp : Application() {
 }

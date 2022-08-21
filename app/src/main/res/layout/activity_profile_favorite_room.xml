@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.ProfileFavoriteRoom">
+    tools:context=".ui.profile.view.ProfileFavoriteRoom">
     <ImageView
         android:layout_width="100dp"
         android:layout_height="100dp"
@@ -32,7 +32,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.588" />
+        app:layout_constraintVertical_bias="0.686" />
 
     <Button
         android:id="@+id/editFile"
@@ -45,6 +45,7 @@
         android:backgroundTint="#000000"
         android:backgroundTintMode="src_over"
         android:textSize="11sp"
+        android:layout_marginBottom="10dp"
         app:layout_constraintBottom_toTopOf="@id/recycle_favRooms"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -80,6 +81,22 @@
         app:layout_constraintTop_toBottomOf="@+id/recycle_favRooms" />
 
     <TextView
+        android:id="@+id/titleOfRoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginEnd="70dp"
+        android:gravity="start"
+        android:text="@string/title"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toTopOf="@+id/decOfRoom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.244"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
         android:id="@+id/decOfRoom"
         android:layout_width="212dp"
         android:layout_height="100dp"
@@ -110,6 +127,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/recycle_favRooms"
         app:layout_constraintVertical_bias="0.939" />
+    <ProgressBar
+        android:id="@+id/pb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycle_favRooms"
@@ -120,6 +146,7 @@
         app:layout_constraintHorizontal_bias="0.609"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/location"
+        android:layout_marginTop="20dp"
         tools:listitem="@layout/recycle_item_rooms">
 
     </androidx.recyclerview.widget.RecyclerView>

@@ -24,4 +24,11 @@
     <string name="confirm_password">confiorm password</string>
     <string name="i_accept_terms_and_conditions_of_the_readers">I accept Terms and Conditions of the Readers</string>
     <string name="Qlogin">Login?</string>
+    <string name="hello_i_am_a_text">hello i am a text</string>
+    <string name="start_new_room">Start New Room</string>
+    <string name="decreptionToStartNewRoom">It seems like you want to add rooms to our community we are so exited! , please enter community name and add description to this room so we can filter our the room to add it to the right community, lets go!</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="add">Add</string>
+    <string name="add_new_community">Add New community</string>
 </resources>
